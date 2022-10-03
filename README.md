@@ -1,0 +1,2 @@
+# Mindwise
+React Native App
