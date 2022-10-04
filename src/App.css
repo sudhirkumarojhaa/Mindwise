@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 72px;
+  font-weight: bolder;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.full {
+  padding: 200px 0;
+  background: url('https://st.depositphotos.com/1466799/1212/v/950/depositphotos_12124321-stock-illustration-vector-seamless-texture-with-waves.jpg') repeat center;
+  background-size: contain;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.half {
+  padding: 100px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+ background-color:  rgb(71, 11, 145);
+ border-radius: 20px;
+ color: #fff;
+ padding: 10px 50px;
+ border: 0;
+ margin: 0 auto;
+ align-self: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.store {
+  width: 200px;
+  padding: 20px;
+}
+
+.btn:hover{
+  background-color: rgb(103, 29, 193);
+  border: 0;
+}
+
+.img-box {
+  width: auto;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-box {
+    width: 100%;
+    height: 100%;
   }
 }
